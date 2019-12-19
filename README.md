@@ -23,7 +23,7 @@ _(skipping obvious stuff like metasploit, nmap, john etc.)_
 - [pax](https://github.com/liamg/pax) - Padding oracle exploiter
 
 ### Linux Enumeration
-- [LinEnum](https://github.com/rebootuser/LinEnum) - Linux Enumeration script
+- [LinEnum](https://github.com/rebootuser/LinEnum) - Linux enumeration script
 
 ## Snippets
 
