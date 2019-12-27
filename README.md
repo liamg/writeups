@@ -7,6 +7,7 @@
 - [NetCat without -e](https://pen-testing.sans.org/blog/2013/05/06/netcat-without-e-no-problem/) - Reverse shell spawning when netcat does not support `-e`
 - [Exploit DB](https://www.exploit-db.com/) - Exploit DB
 - [Shell Upgrade Guide](https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/)
+- [Windows Privelege Escalation](https://guif.re/windowseop) - Windows privelege escalation
 
 ## Tools
 
