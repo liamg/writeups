@@ -93,7 +93,7 @@ By following this process we should eventually be able to exploit a vulnerabilit
 
 For common vulnerabilities we can [use metasploit](https://www.ceos3c.com/hacking/metasploit-tutorial-the-complete-beginner-guide/) to exploit them, but I find it's often more educational, satisfying (and sometimes more reliable!) to craft my own exploits for the specific scenario.
 
-One common method of gaining a shell is by exploiting a remote command execution (RCE) vuln and starting a [reverse shell](https://resources.infosecinstitute.com/icmp-reverse-shell/#gref). We essentially start a listener on our machine, then execute a command on the target machine which starts a shell that is bound back to our listener.
+One common method of gaining a shell is by exploiting a remote code execution (RCE) vuln and starting a [reverse shell](https://resources.infosecinstitute.com/icmp-reverse-shell/#gref). We essentially start a listener on our machine, then execute a command on the target machine which starts a shell that is bound back to our listener.
 
 The first thing we can do when we gain a shell is check to see if the user we're identified as has the `~/user.txt` that we seek for the first challenge goal. If so, let's paste the contents into the "user" part of the challenge on the HTB site for our first points!
 
