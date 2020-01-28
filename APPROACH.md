@@ -10,7 +10,9 @@ The starting point for a machine challenge is always a single IP address. That b
 
 IMO, the most important thing we can do in this process is take good notes. Make a record of everything we find, whether it be versions of software running, ports open, usernames spotted, interesting files - whatever it is, write it down, we don't know how useful it'll be later in the process.
 
-So, we can *enumerate* in a number of ways...
+An undocumented convention of HTB machine challenges seems to be that the hostname of the machine fits the format `NAME.htb` where NAME is the name of the challenge. The first thing I usually do is add this to my `/etc/hosts` against the machine IP address.
+
+Anyway, we can *enumerate* in a number of ways...
 
 ### Port Scanning/Service Enumeration
 
