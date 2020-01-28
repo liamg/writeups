@@ -28,7 +28,7 @@ This will hopefully give us some information about at least one open port/servic
 
 ### HTTP Enumeration
 
-If the host is running a web server, there are a few methods for gathering further information. First of all, let's hit the web server in our browser. Is it running a known web application? Is the application open-source? Are there [known vulnerabilities](https://www.exploit-db.com/)? Is is a custom app?
+If the host is running a web server, there are a few methods for gathering further information. First of all, let's hit the web server in our browser. Is it running a known web application? Is the application open-source? Are there [known vulnerabilities](https://www.exploit-db.com/)? Is it a custom app?
 
 #### VHOST Enumeration
 
